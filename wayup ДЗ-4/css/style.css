@@ -1,0 +1,170 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+div,
+span,
+h1,
+h2,
+input,
+a,
+button,
+form,
+a,
+ul,
+li {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Ubuntu";
+}
+p {
+  line-height: 1.66em;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  background: linear-gradient(
+    to right,
+    rgba(255, 93, 177, 1) 0%,
+    rgba(251, 88, 170, 1) 14%,
+    rgba(228, 59, 124, 1) 100%
+  );
+  padding-top: 100px;
+  color: white;
+  padding-bottom: 166px;
+}
+.logo {
+  margin-left: 30px;
+}
+.offer {
+  margin-top: 147px;
+  width: 555px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 37px;
+  font-weight: 700;
+  font-family: "Ubuntu";
+}
+.title span {
+  font-size: 59px;
+  font-weight: bold;
+}
+.intro {
+  width: 397px;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 42px;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+.btn {
+  font-family: "Montserrat";
+  background: white;
+  color: black;
+  display: block;
+  width: 222px;
+  height: 56px;
+  padding: 20px 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  background: #f5c242;
+}
+.dekstop {
+  margin-top: 32px;
+}
+.section-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.learn {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.skill {
+  width: 287px;
+  padding-top: 120px;
+  background: url("../img/icons1.jpg") no-repeat top;
+  text-align: center;
+}
+.skill-title {
+  font-size: 19px;
+}
+.skill-text {
+  margin-top: 7px;
+  font-size: 15px;
+}
+.skill-free {
+  width: 262px;
+  background: url("../img/icons2.jpg") no-repeat top;
+}
+.skill-fredom {
+  width: 297px;
+  background: url("../img/icons3.jpg") no-repeat top;
+}
+.main {
+  background-color: #ecf2f8;
+  padding-top: 105px;
+  padding-bottom: 70px;
+}
+.form {
+  margin-top: 56px;
+}
+.input,
+.btn-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input {
+  width: 344px;
+  height: 49px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #201b2d;
+  font-weight: 400;
+  font-family: "Ubuntu";
+  border: 1px solid #bbbbbb;
+  font-family: "Open Sans";
+  padding-left: 26px;
+}
+.btn-form {
+  width: 344px;
+  border: none;
+  cursor: pointer;
+  background-color: #ffd429;
+}
+.footer {
+  padding: 34px 0;
+  background: #154d7a;
+}
+.credits {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
